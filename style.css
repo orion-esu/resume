@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 65%;
+}
+
+body{
+    font-family: lato;
+    letter-spacing: .5px;
+}
+
+.container{
+    width: 90%;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.about-me h1{
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+.about-me p{
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+address,
+.tel,
+.mail{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.education h2,
+.traits h2{
+    font-size: 2rem;
+    color: #2079c7;
+}
+
+h3{
+    font-size: 1.7rem;
+    margin-bottom: 0px;
+    font-family: 'Merriweather', serif;
+}
+
+.state{
+    font-weight: 300;
+}
+
+.degree{
+    font-style: italic;
+    font-weight: 600;
+}
+
+.education p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.traits p{
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width:700px){
+    .main-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .about-me{
+        width: 70%;
+        max-width: 650px;
+    }
+
+    .about-me p{
+        max-width: 65ch;
+    }
+
+    .about-section{
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .education{
+        max-width: 650px;
+        width: 70%;
+    }
+
+    .education h3{
+        max-width: 50ch;
+    }
+
+    .contact,
+    .traits{
+        width: 30%;
+    }
+    .language{
+        margin-top: 5rem;
+    }
+
+    .sec-school-1,
+    .sec-school-2{
+        margin-top: 2rem;
+    }
+}
